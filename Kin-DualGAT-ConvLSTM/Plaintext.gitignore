@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm / VSCode IDE folders
+.idea/
+.vscode/
+
+# Datasets and large files (CRITICAL)
+data/CB-FQA/Motion_Data/
+data/CB-FQA/Quality_Scores/
+data/CB-FQA/*.csv
+data/CB-FQA/*.json
+data/CB-FQA/*.tsv
+!data/download_data.py
+!data/dataset.py
+
+# Checkpoints and logs
+checkpoints/
+*.pth
+*.pt
+logs/
+runs/
+outputs/
+predictions.txt
